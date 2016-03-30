@@ -25,6 +25,18 @@ String sample_3 = "\'" + region + "\'" + BetterKorean.with(region).get_을_를()
 //'서초1동'을 내 지역으로 설정할까요?
 ```
 
+Install
+=======
+
+Gradle:
+```groovy
+buildscript {
+  dependencies {
+    classpath 'com.kaijung.betterkorean:betterkorean:0.8.2'
+  }
+}
+```
+
 제공하는 인터페이스
 ===================
 
