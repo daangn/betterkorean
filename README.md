@@ -25,6 +25,8 @@ String sample_3 = "\'" + region + "\'" + BetterKorean.with(region).get_을_를()
 //'서초1동'을 내 지역으로 설정할까요?
 ```
 
+* [예제보기](https://github.com/n42corp/betterkorean/blob/master/app/src/main/java/com/kaijung/betterkoreansample/MainActivity.java).
+
 Install
 =======
 
