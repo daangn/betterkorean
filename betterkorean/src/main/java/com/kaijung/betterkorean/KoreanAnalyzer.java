@@ -70,12 +70,12 @@ public class KoreanAnalyzer {
         if (src.length() >= 2) {
             String lastTwoString = src.substring(src.length() - 2, src.length());
             for (String item : ENG_TYPE_1) {
-                if (lastTwoString.equals(item)) {
+                if (lastTwoString.toUpperCase().equals(item)) {
                     return true;
                 }
             }
             for (String item : ENG_TYPE_2) {
-                if (lastTwoString.equals(item)) {
+                if (lastTwoString.toUpperCase().equals(item)) {
                     return false;
                 }
             }
