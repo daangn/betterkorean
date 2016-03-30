@@ -36,7 +36,7 @@ Gradle:
 ```groovy
 buildscript {
   dependencies {
-    classpath 'com.kaijung.betterkorean:betterkorean:0.8.2'
+    classpath 'com.kaijung.betterkorean:betterkorean:0.8.3'
   }
 }
 ```
